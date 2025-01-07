@@ -1,0 +1,79 @@
+nav{
+    text-align:center;
+}
+#nav{
+    padding:15px;
+    color: yellow;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+}
+body{
+    animation-name:example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+0% {
+    background-color: pink;
+}
+25% {
+    background-color: lightyellow;
+}
+50% {
+    background-color: lightgreen;
+    }
+    75% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: lavender;
+    }
+}
+#nameoutput{
+    color:white;
+    margin-top: 150px;
+    text-align: center;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example2{
+to {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+from {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:grey;
+}
+}
+#lightbulb{
+    background-image: url("https://media.istockphoto.com/id/2169662955/photo/question-mark-and-lamp-bulb-brainstorm-and-ideas-3d-rendering.jpg?s=612x612&w=0&k=20&c=0jZPJAUxfEWN94zkpZjr4SWMiS73KQ3H0-WMXLPDMJ8=")
+}
+#icon{
+    height:100px;
+    width:100px;
+}
+#flexcontainer{
+    text-align: center;
+    display:flex;
+}
+#flexitem{
+    background-color: rgba(239, 245, 184, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-style: groove;
+    border-color:black;
+    border-width:4px;
+    border-radius:50px;
+
+}
+button:hover{
+ 
+    background-color:cyan;
+    transform: scale(3);
+    text-decoration: none;
+}

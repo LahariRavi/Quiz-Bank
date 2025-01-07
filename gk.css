@@ -1,0 +1,49 @@
+nav{
+    text-align:center;
+}
+#nav{
+    padding:15px;
+    color: yellow;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+}
+body{
+    animation-name:example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+0% {
+    background-color: pink;
+}
+25% {
+    background-color: lightyellow;
+}
+50% {
+    background-color: lightgreen;
+    }
+    75% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: lavender;
+    }
+}
+
+#icon{
+    height:100px;
+    width:100px;
+}
+button:hover{
+ 
+    background-color:white;
+    transform: scale(1.5);
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
